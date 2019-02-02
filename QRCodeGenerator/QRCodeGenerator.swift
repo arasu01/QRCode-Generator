@@ -2,8 +2,8 @@
 //  QRCodeGenerator.swift
 //  QRCode
 //
-//  Created by Leo Chelliah on 25/01/19.
-//  Copyright © 2019 Leo Chelliah. All rights reserved.
+//  Created by Arasuvel T on 25/01/19.
+//  Copyright © 2019 Arasuvel Theerthapathy. All rights reserved.
 //
 
 import UIKit
