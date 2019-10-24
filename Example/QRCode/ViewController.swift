@@ -28,6 +28,12 @@ class ViewController: UIViewController {
 //        imageView.layer.backgroundColor = UIColor.white.cgColor
 //        self.view = imageView
         
+        
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .light
+        } else {
+            // Fallback on earlier versions
+        }
     }
 
     @IBAction func generateButtonPressed(_sender: Any) {
