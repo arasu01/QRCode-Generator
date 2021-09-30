@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		192DB75D22054EAD00BE5FCD /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192DB75C22054EAD00BE5FCD /* QRCodeGenerator.swift */; };
+		19D662E5270553CB002CD0F6 /* ChromaControlStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D662D7270553CA002CD0F6 /* ChromaControlStylable.swift */; };
+		19D662E6270553CB002CD0F6 /* ChromaBrightnessSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D662D8270553CA002CD0F6 /* ChromaBrightnessSlider.swift */; };
+		19D662E7270553CB002CD0F6 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D662DA270553CA002CD0F6 /* UIView+Utils.swift */; };
+		19D662E8270553CB002CD0F6 /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D662DB270553CA002CD0F6 /* UIColor+Utils.swift */; };
+		19D662E9270553CB002CD0F6 /* UIColor+Brightness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D662DC270553CA002CD0F6 /* UIColor+Brightness.swift */; };
+		19D662EA270553CB002CD0F6 /* UIView+DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D662DD270553CA002CD0F6 /* UIView+DropShadow.swift */; };
+		19D662EB270553CB002CD0F6 /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D662DF270553CA002CD0F6 /* ChromaColorPicker.swift */; };
+		19D662EC270553CB002CD0F6 /* ColorWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D662E0270553CA002CD0F6 /* ColorWheelView.swift */; };
+		19D662ED270553CB002CD0F6 /* SliderTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D662E2270553CA002CD0F6 /* SliderTrackView.swift */; };
+		19D662EE270553CB002CD0F6 /* ChromaColorHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D662E3270553CA002CD0F6 /* ChromaColorHandle.swift */; };
+		19D662EF270553CB002CD0F6 /* SliderHandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D662E4270553CA002CD0F6 /* SliderHandleView.swift */; };
+		19D662F127055488002CD0F6 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D662F027055488002CD0F6 /* ColorPickerViewController.swift */; };
 		44F00D8D21FAE6C8000A190A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F00D8C21FAE6C8000A190A /* AppDelegate.swift */; };
 		44F00D8F21FAE6C8000A190A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F00D8E21FAE6C8000A190A /* ViewController.swift */; };
 		44F00D9221FAE6C9000A190A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F00D9021FAE6C9000A190A /* Main.storyboard */; };
@@ -17,6 +29,18 @@
 
 /* Begin PBXFileReference section */
 		192DB75C22054EAD00BE5FCD /* QRCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
+		19D662D7270553CA002CD0F6 /* ChromaControlStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaControlStylable.swift; sourceTree = "<group>"; };
+		19D662D8270553CA002CD0F6 /* ChromaBrightnessSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaBrightnessSlider.swift; sourceTree = "<group>"; };
+		19D662DA270553CA002CD0F6 /* UIView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		19D662DB270553CA002CD0F6 /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		19D662DC270553CA002CD0F6 /* UIColor+Brightness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Brightness.swift"; sourceTree = "<group>"; };
+		19D662DD270553CA002CD0F6 /* UIView+DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+DropShadow.swift"; sourceTree = "<group>"; };
+		19D662DF270553CA002CD0F6 /* ChromaColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaColorPicker.swift; sourceTree = "<group>"; };
+		19D662E0270553CA002CD0F6 /* ColorWheelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheelView.swift; sourceTree = "<group>"; };
+		19D662E2270553CA002CD0F6 /* SliderTrackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderTrackView.swift; sourceTree = "<group>"; };
+		19D662E3270553CA002CD0F6 /* ChromaColorHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaColorHandle.swift; sourceTree = "<group>"; };
+		19D662E4270553CA002CD0F6 /* SliderHandleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderHandleView.swift; sourceTree = "<group>"; };
+		19D662F027055488002CD0F6 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		44F00D8921FAE6C8000A190A /* QRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F00D8C21FAE6C8000A190A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44F00D8E21FAE6C8000A190A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +70,40 @@
 			path = ../../QRCodeGenerator;
 			sourceTree = "<group>";
 		};
+		19D662D6270553CA002CD0F6 /* Color Picker */ = {
+			isa = PBXGroup;
+			children = (
+				19D662D7270553CA002CD0F6 /* ChromaControlStylable.swift */,
+				19D662D8270553CA002CD0F6 /* ChromaBrightnessSlider.swift */,
+				19D662D9270553CA002CD0F6 /* Extensions */,
+				19D662DF270553CA002CD0F6 /* ChromaColorPicker.swift */,
+				19D662E0270553CA002CD0F6 /* ColorWheelView.swift */,
+				19D662E1270553CA002CD0F6 /* Supporting Views */,
+			);
+			path = "Color Picker";
+			sourceTree = SOURCE_ROOT;
+		};
+		19D662D9270553CA002CD0F6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				19D662DA270553CA002CD0F6 /* UIView+Utils.swift */,
+				19D662DB270553CA002CD0F6 /* UIColor+Utils.swift */,
+				19D662DC270553CA002CD0F6 /* UIColor+Brightness.swift */,
+				19D662DD270553CA002CD0F6 /* UIView+DropShadow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		19D662E1270553CA002CD0F6 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				19D662E2270553CA002CD0F6 /* SliderTrackView.swift */,
+				19D662E3270553CA002CD0F6 /* ChromaColorHandle.swift */,
+				19D662E4270553CA002CD0F6 /* SliderHandleView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
 		44F00D8021FAE6C7000A190A = {
 			isa = PBXGroup;
 			children = (
@@ -65,9 +123,11 @@
 		44F00D8B21FAE6C8000A190A /* QRCode */ = {
 			isa = PBXGroup;
 			children = (
+				19D662D6270553CA002CD0F6 /* Color Picker */,
 				192DB75B22054EAD00BE5FCD /* QRCodeGenerator */,
 				44F00D8C21FAE6C8000A190A /* AppDelegate.swift */,
 				44F00D8E21FAE6C8000A190A /* ViewController.swift */,
+				19D662F027055488002CD0F6 /* ColorPickerViewController.swift */,
 				44F00D9021FAE6C9000A190A /* Main.storyboard */,
 				44F00D9321FAE6DF000A190A /* Assets.xcassets */,
 				44F00D9521FAE6DF000A190A /* LaunchScreen.storyboard */,
@@ -147,9 +207,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D662E6270553CB002CD0F6 /* ChromaBrightnessSlider.swift in Sources */,
 				44F00D8F21FAE6C8000A190A /* ViewController.swift in Sources */,
+				19D662E5270553CB002CD0F6 /* ChromaControlStylable.swift in Sources */,
 				192DB75D22054EAD00BE5FCD /* QRCodeGenerator.swift in Sources */,
+				19D662E9270553CB002CD0F6 /* UIColor+Brightness.swift in Sources */,
+				19D662F127055488002CD0F6 /* ColorPickerViewController.swift in Sources */,
+				19D662EE270553CB002CD0F6 /* ChromaColorHandle.swift in Sources */,
+				19D662E7270553CB002CD0F6 /* UIView+Utils.swift in Sources */,
+				19D662EF270553CB002CD0F6 /* SliderHandleView.swift in Sources */,
+				19D662EA270553CB002CD0F6 /* UIView+DropShadow.swift in Sources */,
+				19D662EC270553CB002CD0F6 /* ColorWheelView.swift in Sources */,
+				19D662EB270553CB002CD0F6 /* ChromaColorPicker.swift in Sources */,
 				44F00D8D21FAE6C8000A190A /* AppDelegate.swift in Sources */,
+				19D662E8270553CB002CD0F6 /* UIColor+Utils.swift in Sources */,
+				19D662ED270553CB002CD0F6 /* SliderTrackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +370,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.QRCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -317,6 +390,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,7 +398,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.QRCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
