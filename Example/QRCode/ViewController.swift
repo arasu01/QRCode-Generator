@@ -45,6 +45,10 @@ class ViewController: UIViewController {
         colorImageView?.image = colorImage
     }
     
-
+    @IBAction func colorPickerButtonPressed(_sender: Any) {
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyBoard.instantiateViewController(withIdentifier: "ColorPickerViewController")
+        navigationController?.pushViewController(controller, animated: true)
+    }
 }
 
